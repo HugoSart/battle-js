@@ -1,0 +1,128 @@
+body {
+    font-family: 'Exo';
+    background-image: url('https://cdn.wallpapersafari.com/92/94/7G4KC0.jpg');
+    background-size: 1600px 900px;
+}
+
+.border {
+    border-color: rgba(255,255,255,0.1);
+    border-width: 0.1px;
+    border-style: solid;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 81px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.05);
+}
+
+.navbar-decoration-top {
+    position: absolute;    
+    top: 0;
+    background-color: rgba(0,0,0,0.3);
+    width: 85%;
+    height: 11px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 1px;
+    border-color: rgba(255,255,255,0.25);
+    border-bottom-left-radius: 64px;
+    border-bottom-right-radius: 64px;
+}
+
+.navbar-content {
+    color: white;
+    width: 100%;
+    height: 61px;
+    margin-top: 20px;
+    line-height: 81px;
+}
+
+.navbar-header {
+    width: 70px;
+    height: 40px;
+    filter: brightness(150%);
+    margin-left: 22px;
+    margin-right: 40px;
+}
+
+.navbar-tab {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    margin-left: 28px;
+    font-size: 22px;
+    bottom: 8px;
+}
+
+.sidebar {
+    position: absolute;
+    width: 219px;
+    height: 100%;
+    top: 81px;
+    left: 0;
+    border-top: none;
+    border-left: solid;
+    background-color: rgba(255,255,255,0.0);
+}
+
+.sidebar-content {
+    position: relative;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+}
+
+.sidebar-list {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sidebar-list-header {
+    margin-top: 32px;
+    margin-left: 14px;
+    width: 100%;
+}
+
+.sidebar-list-item {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    
+    color: rgba(255,255,255,0.5);
+    padding-top: 24px;
+    padding-left: 14px;
+    width: 100%;
+    height: 20px;
+    line-height: 100%;
+}
+
+.sidebar-list-item-icon {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+
+    width: 26px;
+    height: 26px;
+    line-height: 100%;
+    margin-right: 16px;
+    transform: translateY(-30%);
+}
+
+.sidebar-list-item:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+
+.sidebar-list-item-selected {
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: rgba(68, 221, 221, 0.75);
+    background-color: rgba(255,255,255,0.05);
+}
